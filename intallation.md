@@ -1,13 +1,12 @@
 #Ruby on Rails 安裝教學
 
 
-##1.安裝前的小建議
+##安裝前的小提醒
 
 若你使用 Windows 電腦，我強烈建議安裝 Linux 雙系統或是用 VM 建立一個虛擬的 Linux 環境來開發 Ruby on Rails(可用 VirtualBox 加上 Ubuntu Linux)。
 由於 Ruby 語言和 Rail 架構的核心開發群都是使用 Mac 和 Linux 開發，相較之下 Ruby on Rails 對 Windows 的優化和支援會比 Linux 差很多，若是直接在 Windows 上安裝 Ruby on Rail，通常會遇到的狀況不是無法安裝，就是一些相關的 dependencies 或是 gem 與 windows 不相容，會讓你遇上一些無法解決的問題，引響你的開發和學習進度。
 
-若你是使用 Linux，可依照以下的安裝法：
-
+##若你是使用 Linux，請依照以下的安裝法：
 
 先安裝一些 Ruby 的 dependencies：
 
@@ -78,7 +77,7 @@ rails -v
 
 恭喜！你已經安裝完開發環境了！！！
 
-##2. 建立你的第一個 Rails app
+##建立你的第一個 Rails app
 
 ```
 rails new my_app_name
