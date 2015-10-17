@@ -8,7 +8,6 @@
 
 若你是使用 Linux，可依照以下的安裝法：
 
-https://gorails.com/setup/ubuntu/15.04
 
 先安裝一些 Ruby 的 dependencies：
 
@@ -47,8 +46,69 @@ ruby -v
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 ```
 
-接下來，安裝 bundler (管理應用程式 Gem 依存性(dependencies)管理工具，它會根據 Gemfile 的設定自動下載及安裝 Gem 套件)
+安裝 bundler (管理應用程式 Gem 依存性(dependencies)管理工具，它會根據 Gemfile 的設定自動下載及安裝 Gem 套件)
 
 ```
 gem install bundler
 ```
+
+接下來，安裝 Rails gem
+
+```
+gem install rails -v 4.2.4
+```
+
+跑完之後，輸入以下指令確保 Rails 可被 rbenv 讀取到
+
+```
+rbenv rehash
+```
+
+最後，確認一下剛才安裝的 Rails 版本是否正確：
+
+```
+rails -v
+```
+
+應該會顯示：
+
+```
+# Rails 4.2.4
+```
+
+恭喜！你已經安裝完開發環境了！！！
+
+##2. 建立你的第一個 Rails app
+
+```
+rails new my_app_name
+
+# Move into the application directory
+cd my_app_name
+```
+
+接下來啟動 rails server：
+
+```
+rails server
+```
+
+打開你的瀏覽器，輸入網址： 
+
+```
+localhost:3000
+```
+
+##恭喜你完成第一個 Rails app！！！
+
+
+
+
+
+
+
+
+
+
+
+
