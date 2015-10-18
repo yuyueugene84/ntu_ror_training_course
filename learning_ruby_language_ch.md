@@ -1,7 +1,5 @@
 #學習 Ruby 語言
 
-It is true that you don't need to be a ruby expert to do rails project. You are still required to know the basic knowledge of the ruby language, otherwise you are going to hit a lot of walls when you learn rails (When I learn rails for the first time I try to work on rails project without trying to learn ruby, BIG MISTAKE!) This course's main focus is Rails Framework, but we still need to learn the basics of Ruby language in order to learn rails effectively, don't just buy a Ruby book and start reading, that would cost too much time, my suggestion to get started on Ruby is the following:
-
 雖然你不需精通 Ruby 語言才能開發 Rails，但是你依然需要對 Ruby 具備一定程度的知識才能有效的學習&開發 Rails (我第一次學 Rails 就嘗試不學 Ruby 直接學 Rails，非常嚴重的錯誤！) 以下是一些個人認為非常適合初學者的 Ruby 學習資源：
 
 
@@ -23,9 +21,7 @@ https://www.gotealeaf.com/books/ruby/read/introduction
 
 ##3. Tealeaf's "Object Oriented Programming with Ruby"
 
-另一本 Tealaef Academy 的電子書。Ruby是個物件導向的程式語言，你需要了解物件導向的概念並知道如何在實作中發揮，才能完全運用 Ruby 語言的優勢。 這本書會教你
-
-Another free ebook by Tealeaf Academy, since Ruby is a Object Oriented language, you need to understand the concept of Object Oriented programming to fully utilize the power of Ruby, and this book will cover the essentials of Object Oriented feature of Ruby language
+另一本 Tealaef Academy 的電子書。Ruby是個物件導向的程式語言，你需要了解物件導向的概念並知道如何在實作中發揮，才能完全運用 Ruby 語言的優勢。 這本書會教你用 Ruby 去學習物件導向的概念與實作，但會拿掉一些進階或不實用的東西，十分適合 Rails 初學者的學習教材。
 
 ```
 https://www.gotealeaf.com/books/oo_ruby
