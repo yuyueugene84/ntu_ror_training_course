@@ -75,6 +75,7 @@ rails -v
 ```
 rails new my_app_name
 
+```
 # 進入 Rails 專案的根目錄
 
 ```
