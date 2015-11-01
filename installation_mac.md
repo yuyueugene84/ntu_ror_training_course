@@ -2,61 +2,77 @@
 
 1. 先安裝 Homebrew, Mac 的套件管理工具
 
-打開Terminal輸入：
+請打開你的 Terminal，輸入以下：
 
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 2. 安裝 rbenv，Ruby 語言的版本管理工具
-brew install rbenv ruby-build
 
-# Add rbenv to bash so that it loads every time you open a terminal
+```
+brew install rbenv ruby-build
+```
+
+3. 讓 rbenv 再每次開啟 Terminal 時都會運作
+```
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
 source ~/.bash_profile
+```
 
-# Install Ruby
+
+4. 安裝 Ruby 語言
+```
 rbenv install 2.2.3
 rbenv global 2.2.3
-ruby -v
+```
 
-3. 設定你的 git 
+5. 安裝完後，輸入
+```
+ruby -v
+```
+應該會顯示 
+```
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
+```
+
+6. 設定你的 git 
 
 打開 git 的彩色輸出
 ```
 git config --global color.ui true
 ```
 
-設定 git 的 user 和 email
+7. 設定 git 的 user 和 email
 ```
 git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR@EMAIL.com"
 ```
 
-讓 git 記住你，不需每次上傳 code 都要重打
+8. 讓 git 記住你，不需每次上傳 code 都要重打
 ```
 git config --global credential.helper store
 ```
 
-7. 安裝 bundler (管理應用程式 Gem 依存性(dependencies)管理工具，它會根據 Gemfile 的設定自動下載及安裝 Gem 套件)
+9. 安裝 bundler (管理應用程式 Gem 依存性(dependencies)管理工具，它會根據 Gemfile 的設定自動下載及安裝 Gem 套件)
 
 ```
 gem install bundler
 ```
 
-8. 接下來，安裝 Rails gem
+10. 接下來，安裝 Rails gem
 
 ```
 gem install rails -v 4.2.4
 ```
 
-9. 跑完之後，輸入以下指令確保 Rails 可被 rbenv 讀取到
+11. 跑完之後，輸入以下指令確保 Rails 可被 rbenv 讀取到
 
 ```
 rbenv rehash
 ```
 
-10. 最後，確認一下剛才安裝的 Rails 版本是否正確：
+12. 最後，確認一下剛才安裝的 Rails 版本是否正確：
 
 ```
 rails -v
@@ -70,25 +86,25 @@ rails -v
 
 恭喜！你已經安裝完開發環境了！！！
 
-12. 建立你的第一個 Rails app
+13. 建立你的第一個 Rails app
 
 ```
 rails new my_app_name
 
 ```
-# 進入 Rails 專案的根目錄
+14. 進入 Rails 專案的根目錄
 
 ```
 cd my_app_name
 ```
 
-13. 接下來啟動 rails server：
+15. 接下來啟動 rails server：
 
 ```
 rails server
 ```
 
-14. 打開你的瀏覽器，輸入網址： 
+16. 打開你的瀏覽器，輸入網址： 
 
 ```
 localhost:3000
