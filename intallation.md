@@ -8,6 +8,8 @@
 
 1. 先安裝一些 Ruby 的 dependencies：
 
+請打開你的 Terminal，輸入以下：
+
 ```
 sudo apt-get update
 sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
