@@ -8,7 +8,7 @@
 
 1. 先安裝一些 Ruby 的 dependencies：
 
-請打開你的 Terminal，輸入以下：
+請打開你的 Terminal，輸入以下指令：
 
 ```
 sudo apt-get update

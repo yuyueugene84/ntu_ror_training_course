@@ -34,5 +34,3 @@ https://www.gotealeaf.com/books/oo_ruby
 ```
 https://ihower.tw/rails4/
 ```
-
-New Change!
