@@ -86,6 +86,14 @@ echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 gem install bundler
 ```
 
+安裝 Node.js，一個 Javascript 的 runtime
+
+```
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
+```
+
 8. 接下來，安裝 Rails gem
 
 ```
