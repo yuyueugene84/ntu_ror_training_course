@@ -15,7 +15,7 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 
 1. 先安裝一些 Ruby 的 dependencies：
 
-請打開你的 Terminal，輸入以下指令：
+	請打開你的 Terminal，輸入以下指令：
 
 	```
 	sudo apt-get update
@@ -24,18 +24,18 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 
 2. 設定你的 git
 
-打開 git 的彩色輸出
+	打開 git 的彩色輸出
 	```
 	git config --global color.ui true
 	```
 
-設定 git 的 user 和 email
+	設定 git 的 user 和 email
 	```
 	git config --global user.name "YOUR NAME"
 	git config --global user.email "YOUR@EMAIL.com"
 	```
 
-讓 git 記住你，不需每次上傳 code 都要重打
+	讓 git 記住你，不需每次上傳 code 都要重打
 	```
 	git config --global credential.helper store
 	```
@@ -64,13 +64,13 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 	sudo apt-get install sublime-text-installer
 	```
 
-在裝完後，打開Sublime
+	在裝完後, 打開Sublime
 	```
 	cd /opt/sublime_text
 	./sublime_text
 	```
 
-點一下右下角的選單，選擇 Indent using space, 並選 tab width: 2
+	點一下右下角的選單，選擇 Indent using space, 並選 tab width: 2
 
 5. 安裝完 rbenv 之後，安裝 Ruby 2.2.3，並設為預設的 Ruby 版本
 
@@ -92,7 +92,7 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 	gem install bundler
 	```
 
-安裝 Node.js，一個 Javascript 的 runtime
+	安裝 Node.js，一個 Javascript 的 runtime
 
 	```
 	sudo add-apt-repository ppa:chris-lea/node.js
@@ -124,7 +124,7 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 	# Rails 4.2.4
 	```
 
-恭喜！你已經安裝完開發環境了！！！
+	恭喜！你已經安裝完開發環境了！！！
 
 12. 建立你的第一個 Rails app
 
