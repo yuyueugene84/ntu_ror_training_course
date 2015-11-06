@@ -10,6 +10,8 @@ http://blog.xuite.net/yh96301/blog/55671076-VirtualBox+5.0%E5%AE%89%E8%A3%9DUbun
 由於 Ruby 語言和 Rail 架構的核心開發群都是使用 Mac 和 Linux 開發，相較之下 Ruby on Rails 對 Windows 的優化和支援會比 Linux 差很多，若是直接在 Windows 上安裝 Ruby on Rail，通常會遇到的狀況不是無法安裝，就是一些相關的 dependencies 或是 gem 與 windows 不相容，會讓你遇上一些無法解決的問題，引響你的開發和學習進度。
 
 
+## 開始安裝開發環境
+
 Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環境：
 
 1. 先安裝一些 Ruby 的 dependencies：
@@ -125,31 +127,31 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 
 	恭喜！你已經安裝完開發環境了！！！
 
-12. 建立你的第一個 Rails app
+## 建立你的第一個 Rails app
 
 	```
 	rails new my_app_name
 	```
 
-13. 進入 Rails 專案的根目錄
+1. 進入 Rails 專案的根目錄
 
 	```
 	cd my_app_name
 	```
 
-14. 接下來啟動 rails server：
+2. 接下來啟動 rails server：
 
 	```
 	rails server
 	```
 
-15. 打開你的瀏覽器，輸入網址： 
+3. 打開你的瀏覽器，輸入網址： 
 
 	```
 	localhost:3000
 	```
 
-##恭喜你完成第一個 Rails app！！！
+## 恭喜你完成第一個 Rails app！！！
 
 
 
