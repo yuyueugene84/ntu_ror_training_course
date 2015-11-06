@@ -1,6 +1,5 @@
 #Ruby on Rails Linux 安裝教學
 
-
 ##安裝前的小提醒
 
 若你使用 Windows 電腦，我強烈建議安裝 Linux 雙系統或是用 VM 建立一個虛擬的 Linux 環境來開發 Ruby on Rails，可用 VirtualBox 加上 Ubuntu Linux，請參考以下教學: 
@@ -132,19 +131,19 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 	rails new my_app_name
 	```
 
-# 進入 Rails 專案的根目錄
+13. 進入 Rails 專案的根目錄
 
 	```
 	cd my_app_name
 	```
 
-13. 接下來啟動 rails server：
+14. 接下來啟動 rails server：
 
 	```
 	rails server
 	```
 
-14. 打開你的瀏覽器，輸入網址： 
+15. 打開你的瀏覽器，輸入網址： 
 
 	```
 	localhost:3000
