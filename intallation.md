@@ -3,9 +3,8 @@
 ##安裝前的小提醒
 
 若你使用 Windows 電腦，我強烈建議安裝 Linux 雙系統或是用 VM 建立一個虛擬的 Linux 環境來開發 Ruby on Rails，可用 VirtualBox 加上 Ubuntu Linux，請參考以下教學: 
-```
-http://blog.xuite.net/yh96301/blog/55671076-VirtualBox+5.0%E5%AE%89%E8%A3%9DUbuntu+15.04
-```
+
+[link]http://blog.xuite.net/yh96301/blog/55671076-VirtualBox+5.0%E5%AE%89%E8%A3%9DUbuntu+15.04
 
 由於 Ruby 語言和 Rail 架構的核心開發群都是使用 Mac 和 Linux 開發，相較之下 Ruby on Rails 對 Windows 的優化和支援會比 Linux 差很多，若是直接在 Windows 上安裝 Ruby on Rail，通常會遇到的狀況不是無法安裝，就是一些相關的 dependencies 或是 gem 與 windows 不相容，會讓你遇上一些無法解決的問題，引響你的開發和學習進度。
 
@@ -57,7 +56,7 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 	git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
 	```
 
-4. 安裝 Sublime, 本課程使用的文字編輯器
+4. 安裝 Sublime，本課程使用的文字編輯器
 
 	```
 	sudo add-apt-repository ppa:webupd8team/sublime-text-3
@@ -65,15 +64,15 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 	sudo apt-get install sublime-text-installer
 	```
 
-	在裝完後, 打開Sublime
+	裝完後，打開Sublime
 	```
 	cd /opt/sublime_text
 	./sublime_text
 	```
 
-	點一下右下角的選單，選擇 Indent using space, 並選 tab width: 2
+	點一下右下角的選單，選擇 Indent using space，並選 tab width: 2
 
-5. 安裝完 rbenv 之後，安裝 Ruby 2.2.3，並設為預設的 Ruby 版本
+5. 安裝完 rbenv 之後，安裝 Ruby 2.2.3，並設為預設的 Ruby 版本，Ruby安裝過程較長，請耐心等候
 
 	```
 	rbenv install 2.2.3
@@ -129,23 +128,24 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 
 ## 建立你的第一個 Rails app
 
+1. 建立Rails app
 	```
 	rails new my_app_name
 	```
 
-1. 進入 Rails 專案的根目錄
+2. 進入 Rails 專案的根目錄
 
 	```
 	cd my_app_name
 	```
 
-2. 接下來啟動 rails server：
+3. 接下來啟動 rails server：
 
 	```
 	rails server
 	```
 
-3. 打開你的瀏覽器，輸入網址： 
+4. 打開你的瀏覽器，輸入網址： 
 
 	```
 	localhost:3000
