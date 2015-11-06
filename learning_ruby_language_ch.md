@@ -35,10 +35,9 @@ https://www.gotealeaf.com/books/oo_ruby
 https://ihower.tw/rails4/
 ```
 
-
 p.s. 若你之前沒有任何寫網頁的經驗，請花一點時間練習 HTML & CSS 
 
-##5. Codecademy 的 HTML & CSS 課程
+##5. Codecademy 的 HTML & CSS 課程是個不錯的開始
 
 ```
 https://www.codecademy.com/learn/web
