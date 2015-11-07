@@ -16,14 +16,14 @@
 
 ##3. Tealeaf's "Object Oriented Programming with Ruby"
 
-另一本 Tealeaf Academy 的電子書。Ruby是個物件導向的程式語言，你需要了解物件導向的概念並知道如何在實作中發揮，才能完全運用 Ruby 語言的優勢。 這本書會教你用 Ruby 去學習物件導向的概念與實作，十分適合 Rails 初學者的學習教材。
+另一本 Tealeaf Academy 的電子書。Ruby是個物件導向的程式語言，你需要了解物件導向的概念並知道如何在實作中才能完全掌握 Ruby 語言並且把它運用自如。 這本書會教你用 Ruby 去學習物件導向的概念與實作，十分適合 Rails 初學者的學習教材。
 
-[Tealeaf OO programming with Ruby](https://www.gotealeaf.com/books/oo_ruby)
+[Tealeaf OO programming with Ruby](https://www.gotealeaf.com/books/oo_ruby/read/introduction)
 
 ##4. Eloquent Ruby by Russ Olsen
 
 若你想更深度的了解 Ruby 這個語言和它的語法，這是一本相當優質的參考書！
-可直接到以下連結閱讀 (此網站目的為教學，請不要隨意分享該連結)：
+可直接到以下連結閱讀 (此網站是我當以教學為目的所寫的小型app，請不要隨意分享該連結，流量會核爆的)：
 
 [Eloquent Ruby Ebook](http://duck-on-rails.herokuapp.com/posts/eloquent-ruby)
 
