@@ -2,16 +2,17 @@
 
 ##安裝前的小提醒
 
-若你使用 Windows 電腦，我強烈建議安裝 Linux 雙系統或是用 VM 建立一個虛擬的 Linux 環境來開發 Ruby on Rails，可用 VirtualBox 加上 Ubuntu Linux，請參考以下教學: 
+若你使用 Windows 電腦，我強烈建議安裝 Linux 雙系統或是用 VM 建立一台虛擬的 Linux 環境來開發 Ruby on Rails，VirtualBox 或 VMWare 加上 Ubuntu Linux 是一個很好的解決方案，請參考以下兩篇教學: 
 
-[VirtualBox 5.0安裝Ubuntu 15.04](http://blog.xuite.net/yh96301/blog/55671076-VirtualBox+5.0%E5%AE%89%E8%A3%9DUbuntu+15.04)
+[VirtualBox 安裝Ubuntu](http://blog.xuite.net/yh96301/blog/55671076-VirtualBox+5.0%E5%AE%89%E8%A3%9DUbuntu+15.04)
+[VMware Player 安裝Ubuntu](http://softcans.blogspot.tw/2014/10/VMware-Uubuntu-14-04-01-install.html)
 
 由於 Ruby 語言和 Rail 架構的核心開發群都是使用 Mac 和 Linux 開發，相較之下 Ruby on Rails 對 Windows 的優化和支援會比 Linux 差很多，若是直接在 Windows 上安裝 Ruby on Rail，通常會遇到的狀況不是無法安裝，就是一些相關的 dependencies 或是 gem 與 windows 不相容，會讓你遇上一些無法解決的問題，引響你的開發和學習進度。
 
 
 ## 開始安裝開發環境
 
-Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環境：
+Ubuntu 安裝成功後，接下來就開始安裝 Rails 的開發環境：
 
 1. 先安裝一些 Ruby 的 dependencies：
 
