@@ -23,7 +23,7 @@
 ##4. Eloquent Ruby by Russ Olsen
 
 若你想更深度的了解 Ruby 這個語言和它的語法，這是一本相當優質的參考書！
-可直接到以下連結閱讀 (此網站是我當以教學為目的所寫的小型app，請不要隨意分享該連結，流量會核爆的)：
+可直接到以下連結在線上閱讀 (此網站是我很久以前以教學為目的所寫的小型app，請不要隨意分享該連結，流量會核爆的)：
 
 [Eloquent Ruby Ebook](http://duck-on-rails.herokuapp.com/posts/eloquent-ruby)
 
