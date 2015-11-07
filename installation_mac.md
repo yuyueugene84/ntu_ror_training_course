@@ -1,6 +1,6 @@
 #Ruby on Rails Mac 安裝教學
 
-1. 先安裝 Homebrew, Mac 的套件管理工具
+1. 先安裝 Homebrew，Mac 的套件管理工具
 
 	請打開你的 Terminal，輸入以下：
 
@@ -20,8 +20,9 @@
 	echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
 	source ~/.bash_profile
 	```
-	
+
 4. 安裝 Ruby 語言
+
 	```
 	rbenv install 2.2.3
 	rbenv global 2.2.3
@@ -32,7 +33,9 @@
 	```
 	ruby -v
 	```
+
 	應該會顯示 
+
 	```
 	ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
 	```
@@ -80,33 +83,33 @@
 	rails -v
 	```
 
-11. 應該會顯示：
+13. 應該會顯示：
 
 	```
-	# Rails 4.2.4
+	Rails 4.2.4
 	```
 
 	恭喜！你已經安裝完開發環境了！！！
 
-13. 建立你的第一個 Rails app
+14. 建立你的第一個 Rails app
 
 	```
 	rails new my_app_name
 
 	```
-14. 進入 Rails 專案的根目錄
+15. 進入 Rails 專案的根目錄
 
 	```
 	cd my_app_name
 	```
 
-15. 接下來啟動 rails server：
+16. 接下來啟動 rails server：
 
 	```
 	rails server
 	```
 
-16. 打開你的瀏覽器，輸入網址： 
+17. 打開你的瀏覽器，輸入網址： 
 
 	```
 	localhost:3000

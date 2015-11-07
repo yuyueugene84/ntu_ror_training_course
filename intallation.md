@@ -43,7 +43,6 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 3. 接下來，安裝 rbenv，Ruby 語言的版本管理工具：
 
 	```
-	cd ~
 	git clone git://github.com/sstephenson/rbenv.git .rbenv
 	echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 	echo 'eval "$(rbenv init -)"' >> ~/.bashrc
@@ -121,7 +120,7 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 11. 應該會顯示：
 
 	```
-	# Rails 4.2.4
+	Rails 4.2.4
 	```
 
 	恭喜！你已經安裝完開發環境了！！！
@@ -151,7 +150,7 @@ Ubuntu 安裝成功後，開啟 VM，接下來就開始安裝 Rails 的開發環
 	localhost:3000
 	```
 
-## 恭喜你完成第一個 Rails app！！！
+##恭喜你完成第一個 Rails app！！！
 
 
 
