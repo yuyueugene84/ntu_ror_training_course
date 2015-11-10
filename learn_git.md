@@ -22,16 +22,19 @@ git 是程式設計師的版本管理工具，用最簡單的方法解釋，若�
 	```
 
 ##git 教學資源
+
 1. 可以從這裡開始，Code School 的 免費 git 入門，用實作的方式帶你了解 git 的基礎用法：
 
     ```
     https://www.codeschool.com/courses/try-git
     ```
 2. 這是一個不錯的 git 中文教學，給大家參考：
+
 	```
 	https://backlogtool.com/git-guide/tw/
 	```
 3. 這是另外一個 git 中文教學(應該說是懶人包)，由國內知名 Rails 開發者 iHower 編譯：
+
 	```
 	https://ihower.tw/git/basic.html
 	```
