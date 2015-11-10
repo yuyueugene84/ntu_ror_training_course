@@ -10,7 +10,7 @@
 
 ##2. Tealeaf Academy's "Introduction to Programming with Ruby"
 
-一本免費的入門電子書，是由 Tealeaf Academy，一個國外的線上 Rails 教學訓練營的老師編譯，裡面會拿掉不實用或太進階的 Ruby 語法和功能，專注在讓你學會足夠理解與學曦開發 Rails 所需要的 Ruby 語法
+一本免費的入門電子書，是由 Tealeaf Academy，一個國外的線上 Rails 教學訓練營裡的老師編譯，裡面會拿掉不實用或太進階的 Ruby 語法和功能，專注在讓你學會足夠理解與學習開發 Rails 所需要的 Ruby 語法
 
 [Tealeaf Intro to Ruby](https://www.gotealeaf.com/books/ruby/read/introduction)
 

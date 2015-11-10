@@ -2,7 +2,7 @@
 
 ##安裝前的小提醒
 
-若你使用 Windows 電腦，我強烈建議安裝 Linux 雙系統或是用 VM 建立一台虛擬的 Linux 環境來開發 Ruby on Rails，VirtualBox 或 VMWare 加上 Ubuntu Linux 是一個很好的解決方案，請參考以下兩篇教學: 
+若你使用 Windows 電腦，我強烈建議安裝 Linux 雙系統或是用 VM 建立一台虛擬的 Linux 環境來開發 Ruby on Rails，VirtualBox 或 VMWare 加上 Ubuntu Linux 是一個很好的解決方案，請參考以下教學: 
 
 [VirtualBox 安裝Ubuntu](http://blog.xuite.net/yh96301/blog/55671076-VirtualBox+5.0%E5%AE%89%E8%A3%9DUbuntu+15.04)
 [VMware Player 安裝Ubuntu](http://softcans.blogspot.tw/2014/10/VMware-Uubuntu-14-04-01-install.html)
