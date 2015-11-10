@@ -4,9 +4,7 @@ git 是程式設計師的版本管理工具，用最簡單的方法解釋，若�
 
 1. 若你沒有 Github 帳號，請快去註冊一個
 
-	```
 	[Github](https://github.com/)
-	```
 
 2. 請熟悉以下 git 指令：
 
@@ -24,19 +22,14 @@ git 是程式設計師的版本管理工具，用最簡單的方法解釋，若�
 
 1. 可以從這裡開始，Code School 的 免費 git 入門，用實作的方式帶你了解 git 的基礎用法：
 
-    ```
     [CodeSchool Try Git](https://www.codeschool.com/courses/try-git)
-    ```
 2. 這是一個不錯的 git 中文教學，給大家參考：
 
-	```
 	[連猴子都能懂的Git入門指南](https://backlogtool.com/git-guide/tw/)
-	```
-3. 這是另外一個 git 中文教學(應該說是懶人包)，由國內知名 Rails 開發者 iHower 編譯：
 
-	```
+3. 這是另外一個 git 中文教學(應該說是懶人包)，由國內知名 Rails 開發者 iHower 撰寫：
+
 	[iHower的教學](https://ihower.tw/git/basic.html)
-	```
 
 ##*各位同學請不要光看文件不練習唷，git 和寫程式一樣，要不斷的練習才能在實戰中自由發揮
 
