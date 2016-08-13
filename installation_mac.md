@@ -21,7 +21,7 @@
 	source ~/.bash_profile
 	```
 
-4. 安裝 Ruby 語言
+4. 安裝 Ruby 2.2.3，並設為預設的 Ruby 版本，Ruby安裝過程較長，請耐心等候
 
 	```
 	rbenv install 2.2.3
@@ -91,19 +91,28 @@
 
 	恭喜！你已經安裝完開發環境了！！！
 
-14. 建立你的第一個 Rails app
+14. 安裝 Sublime Text
+
+	[Sublime Text 官網](https://www.sublimetext.com/3)
+
+15. 設定 Sublime 的快捷指令
+	```
+	echo 'alias subl="open -a '\''Sublime Text'\''"' >> ~/.bash_profile
+	```
+
+16. 建立你的第一個 Rails app
 
 	```
 	rails new my_app_name
 
 	```
-15. 進入 Rails 專案的根目錄
+17. 進入 Rails 專案的根目錄
 
 	```
 	cd my_app_name
 	```
 
-16. 接下來啟動 rails server：
+18. 接下來啟動 rails server：
 
 	```
 	rails server
