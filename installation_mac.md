@@ -24,8 +24,8 @@
 4. 安裝 Ruby 2.2.3，並設為預設的 Ruby 版本，Ruby安裝過程較長，請耐心等候
 
 	```
-	rbenv install 2.2.3
-	rbenv global 2.2.3
+	rbenv install 2.3.3
+	rbenv global 2.3.3
 	```
 
 5. 安裝完後，輸入
@@ -37,7 +37,7 @@
 	應該會顯示 
 
 	```
-	ruby 2.2.3
+	ruby 2.3.3
 	```
 
 6. 設定你的 git 
@@ -50,8 +50,8 @@
 7. 設定 git 的 user 和 email
 
 	```
-	git config --global user.name "YOUR NAME"
-	git config --global user.email "YOUR@EMAIL.com"
+	git config --global user.name "你的名字"
+	git config --global user.email "你的 Email"
 	```
 8. 讓 git 記住你，不需每次上傳 code 都要重打
 
@@ -68,7 +68,7 @@
 10. 接下來，安裝 Rails gem
 
 	```
-	gem install rails -v 4.2.4
+	gem install rails -v 5.0.0.1
 	```
 
 11. 跑完之後，輸入以下指令確保 Rails 可被 rbenv 讀取到
@@ -86,19 +86,10 @@
 13. 應該會顯示：
 
 	```
-	Rails 4.2.4
+	Rails 5.0.1
 	```
 
 	恭喜！你已經安裝完開發環境了！！！
-
-14. 安裝 Sublime Text
-
-	[Sublime Text 官網](https://www.sublimetext.com/3)
-
-15. 設定 Sublime 的快捷指令
-	```
-	echo 'alias subl="open -a '\''Sublime Text'\''"' >> ~/.bash_profile
-	```
 
 16. 建立你的第一個 Rails app
 
@@ -123,6 +114,17 @@
 	```
 	localhost:3000
 	```
+	若成功應該出現以下畫面：
+	![Success](welcome.png)
 
-##恭喜你完成第一個 Rails app！！！
+## 恭喜你完成第一個 Rails app！！！
 
+
+1. 安裝 Visual Studio Code
+
+	[VS Code 官網](https://code.visualstudio.com/Download)
+
+2. 設定 Code 的快捷指令
+	```
+	echo 'alias code="open -a 'Visual Studio Code'"' >> ~/.bash_profile
+	```

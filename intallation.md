@@ -20,7 +20,7 @@ Ubuntu 安裝成功後，接下來就開始安裝 Rails 的開發環境：
 
 	```
 	sudo apt-get update
-	sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+	sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev nodejs
 	```
 
 2. 設定你的 git
@@ -32,8 +32,8 @@ Ubuntu 安裝成功後，接下來就開始安裝 Rails 的開發環境：
 
 	設定 git 的 user 和 email
 	```
-	git config --global user.name "YOUR NAME"
-	git config --global user.email "YOUR@EMAIL.com"
+	git config --global user.name "你的名字"
+	git config --global user.email "你的 Email"
 	```
 
 	讓 git 記住你，不需每次上傳 code 都要重打
@@ -44,43 +44,36 @@ Ubuntu 安裝成功後，接下來就開始安裝 Rails 的開發環境：
 3. 接下來，安裝 rbenv，Ruby 語言的版本管理工具：
 
 	```
-	git clone git://github.com/sstephenson/rbenv.git .rbenv
+	git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 	echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 	echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 	exec $SHELL
-	
-	git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+	git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 	echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 	exec $SHELL
-	
-	git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
 	```
 
-4. 安裝 Sublime，本課程使用的文字編輯器
+4. 安裝完 rbenv 之後，安裝 Ruby 2.2.3，並設為預設的 Ruby 版本，Ruby安裝過程較長，請耐心等候
 
 	```
-	sudo add-apt-repository ppa:webupd8team/sublime-text-3
-	sudo apt-get update
-	sudo apt-get install sublime-text-installer
+	rbenv install 2.3.3
+	rbenv global 2.3.3
 	```
 
-	裝完後，打開Sublime
-	```
-	cd /opt/sublime_text
-	./sublime_text
-	```
-
-	點一下右下角的選單，選擇 Indent using space，並選 tab width: 2
-
-5. 安裝完 rbenv 之後，安裝 Ruby 2.2.3，並設為預設的 Ruby 版本，Ruby安裝過程較長，請耐心等候
+5. 安裝完後，輸入
 
 	```
-	rbenv install 2.2.3
-	rbenv global 2.2.3
 	ruby -v
 	```
 
-6. 告訴 Rubygems 不要安裝 rdoc，初學者用不到，同時也拖長安裝時間
+	應該會顯示 
+
+	```
+	ruby 2.3.3
+	```
+
+5. 告訴 Rubygems 不要安裝 rdoc，初學者用不到，同時也拖長安裝時間
 
 	```
 	echo "gem: --no-ri --no-rdoc" > ~/.gemrc
@@ -95,15 +88,14 @@ Ubuntu 安裝成功後，接下來就開始安裝 Rails 的開發環境：
 	安裝 Node.js，一個 Javascript 的 runtime
 
 	```
-	sudo add-apt-repository ppa:chris-lea/node.js
-	sudo apt-get update
-	sudo apt-get install nodejs
+	curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+	sudo apt-get install -y nodejs
 	```
 
 8. 接下來，安裝 Rails gem
 
 	```
-	gem install rails -v 4.2.4
+	gem install rails -v 5.0.0.1
 	```
 
 9. 跑完之後，輸入以下指令確保 Rails 可被 rbenv 讀取到
@@ -121,7 +113,7 @@ Ubuntu 安裝成功後，接下來就開始安裝 Rails 的開發環境：
 11. 應該會顯示：
 
 	```
-	Rails 4.2.4
+	Rails 5.0.1
 	```
 
 	恭喜！你已經安裝完開發環境了！！！
@@ -130,13 +122,13 @@ Ubuntu 安裝成功後，接下來就開始安裝 Rails 的開發環境：
 
 1. 建立Rails app
 	```
-	rails new my_app_name
+	rails new my_app
 	```
 
 2. 進入 Rails 專案的根目錄
 
 	```
-	cd my_app_name
+	cd my_app
 	```
 
 3. 接下來啟動 rails server：
@@ -150,8 +142,11 @@ Ubuntu 安裝成功後，接下來就開始安裝 Rails 的開發環境：
 	```
 	localhost:3000
 	```
+	
+	若成功應該出現以下畫面：
+	![Success](welcome.png)
 
-##恭喜你完成第一個 Rails app！！！
+## 恭喜你完成第一個 Rails app！！！
 
 
 
